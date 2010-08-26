@@ -63,7 +63,7 @@ class GitWrapper:
     
     def __add(self, path):        
         if os.path.isfile(path) or os.path.isdir(path) or os.path.islink(path):
-            self.__runGitCmd(["git", "add", path])
+            self.__runGitCmd(["git", "add", path[1:]])
 
     def __commit(self):
         status = self.__runGitCmd(["git", "commit", "-a", "-m", "'changes'"])
