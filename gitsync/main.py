@@ -16,9 +16,8 @@ from gitsync.poller import Poller
 # config dictionary
 #
 config = {}
- 
-if __name__ == "__main__":
-    
+
+def main():
     #
     # load up the config
     #
@@ -41,4 +40,6 @@ if __name__ == "__main__":
     poller = Poller(config)
     poller.run()
     
+if __name__ == "__main__":
+    main()
     
