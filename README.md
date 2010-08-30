@@ -27,4 +27,4 @@ Run the following
 
 You can now run the gitsync command
 
-    git sync
+    gitsync
