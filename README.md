@@ -28,3 +28,5 @@ Run the following
 You can now run the gitsync command
 
     gitsync
+
+Default configs are in the contrib directory. They can be placed in the /etc/gitsync dir. 
